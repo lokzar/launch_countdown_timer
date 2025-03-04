@@ -11,7 +11,7 @@ export default function Home() {
         
 
         <div className="flex-col items-center gap-[1rem]">
-          <div className="relative h-[1.8em] inline-flex flex-col w-full min-w-[75px] sm:min-w-[100px] md:min-w-[150px] text-[1.75rem] sm:text-[3rem] md:text-[5rem]">
+          <div className="relative h-[1.8em] inline-flex flex-col w-full min-w-[75px] sm:min-w-[100px] md:min-w-[150px] text-[1.75rem] sm:text-[3rem] md:text-[5rem] rounded-md bg-[#1a1823] shadow-[0em_0.2em_0em_#1a1823]">
             {/* Top Container */}
             <div className="relative h-[50%] bg-[#2c2c44] rounded-lg">
               {/* Top Number position */}
@@ -27,9 +27,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div>
+          <h3 className="uppercase text-[#7c7997] text-center tracking-[6] pt-8">
             days
-          </div>
+          </h3>
         </div>
 
       </div>
