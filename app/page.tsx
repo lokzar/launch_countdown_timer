@@ -13,7 +13,7 @@ export default function Home() {
   const [days, hours, minutes, seconds] = useCountdown(launchingtDate);
 
   return (
-    <div className="relative h-screen flex flex-col items-center bg-gradient-to-t from-[#493349] via-[#211d2b] to-[#1e1e28]">
+    <div className="relative h-screen flex flex-col items-center bg-gradient-to-t from-[#241e2c] via-[#211d2b] to-[#1e1e28]">
       <div className="absolute inset-0 bg-[url('/assets/bg-stars.svg')] bg-cover bg-center opacity-80"></div>
         <div className="flex-grow">
           <h1 className="text-white text-center text-lg sm:text-lg md:text-2lg lg:text-2xl capitalize tracking-[9] p-3 pt-30">

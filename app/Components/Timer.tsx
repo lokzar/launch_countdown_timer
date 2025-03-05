@@ -31,7 +31,7 @@ const Timer: React.FC<TimerProps> = ({ number, title }) =>{
                 {/* Bottom Container */}
                 <div className={`relative h-[50%] bg-[#34364f] rounded-md transition-transform duration-800 ${flip ? 'flip-down' : ''}`}>
                     {/* Bottom Number placement */}
-                    <div className={`relative flex justify-center items-end h-full pb-[0.45em] overflow-hidden leading-none text-[#d4506f] text-center font-bold w-full transition-transform duration-800 ${flip ? 'flip-down' : ''}`}>
+                    <div className={`relative flex justify-center items-end h-full pb-[0.45em] overflow-hidden leading-none text-[#fb5d82] text-center font-bold w-full transition-transform duration-800 ${flip ? 'flip-down' : ''}`}>
                         <div> {number} </div>
                     </div>
                 </div>
