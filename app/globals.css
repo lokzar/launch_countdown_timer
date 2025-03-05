@@ -1,3 +1,43 @@
 @import "tailwindcss";
 
-
+@keyframes flipUp {
+    0% {
+      transform: rotateX(0deg);
+      transform-origin: bottom;
+    }
+    50% {
+      transform: rotateX(180deg);
+    }
+    100% {
+      transform: rotateX(180deg);
+    }
+  }
+  
+  @keyframes flipDown {
+    0% {
+      transform: rotateX(0deg);
+      transform-origin: top;
+    }
+    50% {
+      transform: rotateX(-180deg);
+    }
+    100% {
+      transform: rotateX(-180deg);
+    }
+  }
+  
+  .flip-up {
+    animation: flipUp 0.7s forwards;
+  }
+  
+  .flip-down {
+    animation: flipDown 0.7s forwards;
+  }
+  
+  .flipping .flip-up {
+    animation: flipUp 0.7s forwards;
+  }
+  
+  .flipping .flip-down {
+    animation: flipDown 0.7s forwards;
+  }
