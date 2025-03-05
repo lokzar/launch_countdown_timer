@@ -16,7 +16,7 @@ export default function Home() {
     <div className="relative h-screen flex flex-col items-center bg-gradient-to-t from-[#241e2c] via-[#211d2b] to-[#1e1e28]">
       <div className="absolute inset-0 bg-[url('/assets/bg-stars.svg')] bg-cover bg-center opacity-80"></div>
         <div className="flex-grow">
-          <h1 className="text-white text-center text-lg sm:text-lg md:text-2lg lg:text-2xl capitalize tracking-[9] p-3 pt-30">
+          <h1 className="text-white text-center text-lg sm:text-lg md:text-2lg lg:text-2xl capitalize tracking-[9] p-3 pt-35">
             WE&apos;RE LAUNCHING SOON
           </h1>     
           <div className="flex flex-row flex-wrap justify-center items-center w-full max-w-[800px] pt-20 gap-[0.5rem] sm:gap-[0.5rem] md:gap-[1.5rem] lg:gap-[2.5rem]">     
