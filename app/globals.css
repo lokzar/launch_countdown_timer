@@ -27,17 +27,17 @@
   }
   
   .flip-up {
-    animation: flipUp 0.7s forwards;
+    animation: flipUp 0.8s forwards;
   }
   
   .flip-down {
-    animation: flipDown 0.7s forwards;
+    animation: flipDown 0.8s forwards;
   }
   
   .flipping .flip-up {
-    animation: flipUp 0.7s forwards;
+    animation: flipUp 0.8s forwards;
   }
   
   .flipping .flip-down {
-    animation: flipDown 0.7s forwards;
+    animation: flipDown 0.8s forwards;
   }
