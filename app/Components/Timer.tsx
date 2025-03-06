@@ -37,9 +37,9 @@ const Timer: React.FC<TimerProps> = ({ number, title }) =>{
                     </div>
                 </div>
             </div>
-            <h2 className="uppercase text-[#7c7997] text-center tracking-[2] sm:tracking-[2] md:tracking-[4] lg:tracking-[6] pt-3 sm:pt-3 md:pt-7 lg:pt-9 text-[0.5rem] sm:text-[0.5rem] md:text-[0.75rem] lg:text-[0.8rem]">
+            <span className="block uppercase text-[#7c7997] text-center tracking-[2] sm:tracking-[2] md:tracking-[4] lg:tracking-[6] pt-3 sm:pt-3 md:pt-7 lg:pt-9 text-[0.5rem] sm:text-[0.5rem] md:text-[0.75rem] lg:text-[0.8rem]">
                 {title}
-            </h2>
+            </span>
         </div>
     );
 };
