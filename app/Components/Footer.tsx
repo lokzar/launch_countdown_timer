@@ -2,6 +2,7 @@ import FacebookIcon from "@/public/icons/icon-facebook.svg";
 import InstagramIcon from "@/public/icons/icon-instagram.svg";
 import PinterestIcon from "@/public/icons/icon-pinterest.svg";
 
+//NOTE: Had to install svgr/webpack to import SVG as a react components, this loader let me interact with SVG files and change it's properties, in this case to change it's color on hover
 const Footer = () => {
     return(
       <footer className="relative bg-cover bottom-0 w-full h-[11rem] sm:h-[11rem] md:h-[12rem] lg:h-[14rem] bg-[url('/assets/pattern-hills.svg')]">
