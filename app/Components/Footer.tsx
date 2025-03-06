@@ -9,17 +9,17 @@ const Footer = () => {
         <ul className="w-full flex justify-center pt-25 space-x-6 sm:space-x-6 md:space-x-7 lg:space-x-8">
           <li>
             <a href="https://www.facebook.com" target="blank_">
-              <FacebookIcon roll="img" className="text-[#8285a7] w-8 h-8 hover:text-[#dc6081]"/>
+              <FacebookIcon className="text-[#8285a7] w-8 h-8 hover:text-[#dc6081]"/>
             </a>
           </li>
           <li>
             <a href="https://www.pinterest.com" target="blank_">
-              <PinterestIcon roll="img" className="text-[#8285a7] w-8 h-8 hover:text-[#dc6081]"/>
+              <PinterestIcon className="text-[#8285a7] w-8 h-8 hover:text-[#dc6081]"/>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com" target="blank_">
-              <InstagramIcon roll="img" className="text-[#8285a7] w-8 h-8 hover:text-[#dc6081]"/>
+              <InstagramIcon className="text-[#8285a7] w-8 h-8 hover:text-[#dc6081]"/>
             </a>
           </li>
         </ul>
